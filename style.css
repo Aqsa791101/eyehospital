@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  "Saira", Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+.header{
+     background-color: black;
+}
+.top-header {
+    display: flex;
+    justify-content: space-around;  
+    color: white;
+    padding: 15px 0px;
+}
+.top-header-1{
+    display: flex;
+   
+}
+.top-header-1 p{
+    margin-right: 10px;
+    font-size: 13px;
+}
+.top-header-1 i{
+    color: lightseagreen;
+    margin-right: 5px;
+    
+   
+}
+.top-header-2{
+    display: flex;
+}
+.top-header-2 div{
+    margin-right: 5px;
+}
+.top-header-2 a {
+ background-color: lightseagreen;
+ color: white;
+ padding: 17px 20px;
+ text-decoration: none;
+  font-size: 13px;
+
+}
+.top-header-2 i{
+    padding-right: 6px;
+}
+.nav{
+    display: flex;
+     width: 80%;
+
+    
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+} 
+.anchor{
+    text-decoration: none;
+    color: white;
+    background-color: lightseagreen;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.banner {
+    background-image: url('assets/banner.jpg');
+     background-repeat: no-repeat;
+}
+.banner-content {
+    padding: 200px 0;
+}
+.main-heading {
+    font-size: 75px;
+}
+.care {
+    color: aqua;
+}
+.text-custom-muted {
+    color: #9dabaf;
+}
+input::placeholder {
+    color: #9dabaf;
+    background-color: #f9fafa;
+}
+.apopintment {
+    background-color: #01d6a3;
+    
+}
+.apopintment:hover {
+    background-color: black;
+    transition: 0.6s ease-in-out;
+}
+.black {
+    background-color: black;
+}
+.icon {
+    font-size: 100px;
+}
+.icons{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.list{
+    color: #9dabaf;
+    line-height: 2;
+}
+.header-bottom{
+    background-color: #eaecec;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.display{
+    display: flex;
+
+    
+}
+.display .fa {
+    font-size: 30px;
+    
+    color: lightseagreen;
+}
